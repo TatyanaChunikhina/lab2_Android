@@ -30,10 +30,10 @@ public class UserActivity extends AppCompatActivity {
 
 
             if(age<3||age>60){
-                tv.setText("Дорогой "+name+"! Вы, возможно, ошиблись при вводе возраста, пожалуйста повторите ввод!");
+                tv.setText(getString(R.string.Dear)+name+"! "+getString(R.string.ErrorInputAge) );
             }
-            if(age<18)tv.setText("Дорогой "+name+", Вам еще нет 18! Мы вас не пустим!");
-            if(age>=18&&age<=60) tv.setText("Добро пожаловать, "+name+" "+surName+"!");
+            if(age<18)tv.setText(getString(R.string.Dear)+", "+name+", "+ getString(R.string.AgeLess18));
+            if(age>=18&&age<=60) tv.setText(getString(R.string.welcome)+", "+name+" "+surName+"!");
 
         }
 

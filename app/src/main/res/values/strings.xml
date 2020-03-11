@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="askName">Введите своё имя:</string>
+    <string name="askSurname">Введите свою фамилию:</string>
+    <string name="askAge">*Введите свой возраст:</string>
+    <string name="sendData">Отправить данные</string>
+    <string name="welcome">Добро пожаловать </string>
+    <string name="fillIn">Заполните!</string>
+    <string name="Dear">Дорогой </string>
+    <string name="ErrorInputAge">Вы, возможно, ошиблись при вводе возраста, пожалуйста повторите ввод!</string>
+    <string name="AgeLess18">Вам еще нет 18! Мы вас не пустим!</string>
+</resources>
